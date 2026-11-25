@@ -1,0 +1,13 @@
+###
+POST  http://localhost:3000/auth
+content-type: application/json
+
+{
+  "username": "jk",
+  "password": "sala"
+}
+
+###
+GET http://localhost:3000/users
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJqayIsImlhdCI6MTc5NTYzNTg3MSwiZXhwIjoxNzk1NjM5NDcxfQ.OMLVdu3Ku1UjbhoApLmkIgBIw7xAbEGbbliWF8VOpKw
